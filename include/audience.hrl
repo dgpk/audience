@@ -1,0 +1,5 @@
+-type position() :: {pos_integer(), pos_integer()}.
+-type agent_state() :: {0 | 1, pos_integer()}.
+-type agent_stats() :: {pos_integer(), pos_integer(), pos_integer()}.
+-type agent() :: {Position::position(), State::agent_state(), Stats::agent_stats()}.
+-type agent_behaviour() :: act | wait | migration.
